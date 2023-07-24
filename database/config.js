@@ -7,7 +7,7 @@ const dbConnection = async () => {
       useUnifiedTopology: true,
     });
   } catch (error) {
-    console.log(error);
+    console.log(error, "1");
 
     throw new Error("Error al inicializar BD");
   }
